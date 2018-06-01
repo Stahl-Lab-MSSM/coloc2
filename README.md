@@ -1,9 +1,10 @@
 # coloc2 
 
 
-the coloc2_allchr.R script sources the file with all functions here: functions_coloc_likelihood_summary_integrated.R
+file with all functions here: functions_coloc_likelihood_summary_integrated.R
 
-commands to run coloc2 for one tissue/trait combination:
+
+commands to run coloc2 for one tissue/trait combination
 
 format the GWAS summary statistics file:
 
@@ -16,6 +17,7 @@ eqtl.df = formatColoc(fname = [eQTL_sumstats file], type="quant", N=[eQTL sample
 run co-localization analysis:
 
 res = coloc.eqtl.biom(eqtl.df=eqtl.df, biom.df=biom.df, p12=p12, useBETA=TRUE, outfolder=[outfolder], prefix=[prefix], plot=FALSE, save.coloc.output=FALSE, match_snpid=T)
+
 
 example commands:
 
