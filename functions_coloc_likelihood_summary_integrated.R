@@ -1,3 +1,6 @@
+#### original code by claudia giambartolomei
+#### modifications by james boocock, eli stahl, and amanda dobbyn
+
 library(foreach)
 library(doParallel)
 library(GenomicRanges)
