@@ -4,7 +4,7 @@
 file with all functions here: functions_coloc_likelihood_summary_integrated.R
 
 
-commands to run coloc2 for one tissue/trait combination
+commands to run coloc2 for one eQTL/GWAS combination
 
 format the GWAS summary statistics file:
 
